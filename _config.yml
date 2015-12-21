@@ -1,0 +1,9 @@
+# Site settings
+title: Crisis Response Unit
+description: Crisis Response Unit - PC Repair for your technology crisis!
+author: Marcus Eaton
+baseurl: ""
+url: "http://crisisresponseunit.com"
+
+# Build Settings
+exclude: /remote/
