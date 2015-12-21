@@ -1,12 +1,14 @@
+---
+---
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<!--#include virtual="./head.txt" -->
+{% include css.html %}
 </head>
 <body>
-<!--#include virtual="./header.txt"-->
+{% include header.html %}
 <div id="container">
-	<!--#include virtual="./sidebar.txt" -->
+	{% include sidebar.html %}
 	<div id="page_content">
 	<hr/>
 	<h4>Support</h4>
@@ -22,6 +24,6 @@
 	<b>Please note: We cannot keep your recovered data online for more than 30 days after uploading due to limited space on our servers. Please plan accordingly and let us know immediately if you are unable to download your data.</b>
 	</div>
 </div>
-<!--#include virtual="./footer.txt" -->
+{% include footer.html %}
 </body>
 </html>
