@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+<center>
+<h2>Do not press the back button in your browser at this time.</h2>
+<br>
+<img src="loading1.gif">
+<br>
+<br>
+<script type="text/javascript">
+if (navigator.userAgent.indexOf("WOW64") != -1 ||
+    navigator.userAgent.indexOf("x86_64") != -1 || 
+    navigator.userAgent.indexOf("Win64") != -1 ){
+	function redir64()
+		{
+		window.location="http://crisisresponseunit.com/remote/vista64.html"
+		}
+		document.write("Loading, please wait approximately 5 seconds.");
+		setTimeout('redir64()', 5000);
+	} else {
+	function redir32()
+		{
+    		window.location="http://crisisresponseunit.com/remote/detect2.html"
+		}
+		document.write("Step 1 of 2 complete. Step 2 starting in approximately 5 seconds.");
+		setTimeout('redir32()', 5000);
+} 
+</script>
+</center>
+</body>
+</html>
